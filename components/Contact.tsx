@@ -55,12 +55,12 @@ export default function Contact() {
               <input placeholder="Phone Number" className="form-input" />
               <select className="form-input" defaultValue="">
                 <option value="" disabled>Select Interest Area</option>
-                <option>IT Infrastructure</option>
-                <option>Cyber Security</option>
-                <option>DevSecOps</option>
-                <option>AI &amp; Data Intelligence</option>
-                <option>Cloud &amp; Edge Computing</option>
-                <option>Service Automation</option>
+                <option>Yggdrasil — IT Infrastructure</option>
+                <option>Heimdall — Cyber Security</option>
+                <option>Völundr&apos;s Forge — DevSecOps</option>
+                <option>Mímir&apos;s Well — AI &amp; Data Intelligence</option>
+                <option>Bifröst — Cloud &amp; Edge Computing</option>
+                <option>The Norns — Service Automation</option>
                 <option>Other</option>
               </select>
               <textarea placeholder="Tell us about your project or requirements..." rows={4} className="form-input" style={{ resize: "vertical" }} />
