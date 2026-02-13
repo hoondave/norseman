@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import { MapPin } from "lucide-react";
 import { useInView } from "./useInView";
 
@@ -18,10 +19,27 @@ const locations = [
 export default function Locations() {
   const [ref, visible] = useInView();
 
+  useEffect(() => {
+    // Try to load the global network map JPG; if available, swap it in
+    const mapEl = document.getElementById("locations-map-bg");
+    if (mapEl) {
+      const img = new Image();
+      img.onload = () => {
+        mapEl.setAttribute("src", "/images/parallax/global-network-map.jpg");
+        mapEl.style.opacity = "0.25";
+        mapEl.style.width = "100%";
+        mapEl.style.maxWidth = "none";
+        mapEl.style.objectFit = "cover";
+        mapEl.style.height = "100%";
+      };
+      img.src = "/images/parallax/global-network-map.jpg";
+    }
+  }, []);
+
   return (
     <section id="locations" ref={ref} style={{ position: "relative", padding: "120px 24px", background: "linear-gradient(180deg, var(--navy-900), var(--navy-950))" }}>
       <div className="noise-overlay" />
-      <img src="/images/us-map-locations.svg" alt="" style={{ position: "absolute", left: "50%", top: "50%", transform: "translate(-50%,-50%)", width: "90%", maxWidth: 1000, height: "auto", opacity: 0.15, pointerEvents: "none" }} />
+      <img id="locations-map-bg" src="/images/us-map-locations.svg" alt="" style={{ position: "absolute", left: "50%", top: "50%", transform: "translate(-50%,-50%)", width: "90%", maxWidth: 1000, height: "auto", opacity: 0.15, pointerEvents: "none" }} />
       <div style={{ maxWidth: 1280, margin: "0 auto", position: "relative", zIndex: 2 }}>
         <div style={{ textAlign: "center", marginBottom: 64 }}>
           <div style={{ display: "inline-flex", alignItems: "center", gap: 8, color: "var(--teal-400)", fontSize: 13, fontWeight: 600, letterSpacing: "2px", textTransform: "uppercase", marginBottom: 16 }}>

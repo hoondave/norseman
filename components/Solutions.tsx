@@ -8,54 +8,54 @@ const solutions = [
     icon: <Server size={28} />,
     title: "Foundry",
     subtitle: "IT Infrastructure",
-    image: "/images/foundry-infrastructure.jpg",
+    image: "/images/parallax/foundry-infrastructure.jpg",
     fallbackImage: "/images/data-center.svg",
-    desc: "Your mission runs on infrastructure — we make sure it's bulletproof. End-to-end design, deployment, and management of the compute, storage, and network backbone your enterprise depends on.",
+    desc: "Your mission runs on infrastructure — we make sure it's bulletproof. End-to-end design, deployment, and management.",
     capabilities: ["Hybrid Cloud Architecture", "HPC / GPU Computing", "Storage & Data Management", "Network Modernization", "Edge Computing", "Data Center Consolidation"],
   },
   {
     icon: <Lock size={28} />,
     title: "Sentinel",
     subtitle: "Cyber Security",
-    image: "/images/sentinel-cyber.jpg",
+    image: "/images/parallax/sentinel-cyber.jpg",
     fallbackImage: "/images/cybersecurity.svg",
-    desc: "Proactive defense for the nation's most sensitive networks. Protecting endpoints, clouds, and everything in between with zero-trust architectures and continuous monitoring.",
+    desc: "Proactive defense for the nation's most sensitive networks. Protecting endpoints, clouds, and everything in between.",
     capabilities: ["Zero Trust Architecture", "SIEM & SOAR", "Endpoint Detection & Response", "Identity & Access Management", "Compliance (CMMC, NIST, FedRAMP)", "Penetration Testing"],
   },
   {
     icon: <Code size={28} />,
     title: "Forge",
     subtitle: "DevSecOps",
-    image: "/images/forge-devsecops.jpg",
+    image: "/images/parallax/forge-devsecops.jpg",
     fallbackImage: "/images/devsecops.svg",
-    desc: "Ship faster without cutting corners. Embedding security into every phase of the software lifecycle so your teams can deliver rapid, compliant releases across classified and unclassified environments.",
+    desc: "Accelerate your mission. Secure, automated software pipelines that deliver capabilities to the field faster.",
     capabilities: ["CI/CD Pipeline Design", "Container Orchestration", "Infrastructure as Code", "Automated Security Scanning", "GitOps & Platform Engineering", "Accreditation Acceleration"],
   },
   {
     icon: <Brain size={28} />,
     title: "Cortex",
     subtitle: "AI & Data Intelligence",
-    image: "/images/cortex-ai.jpg",
+    image: "/images/parallax/cortex-ai.jpg",
     fallbackImage: "/images/ai-neural-network.svg",
-    desc: "Transforming raw data into actionable intelligence at the speed of mission. From predictive models and generative AI to enterprise data platforms, we build the intelligence layer that gives your organization an unfair advantage.",
+    desc: "Turn data into decisive action. Advanced analytics and AI architectures built for the speed of relevance.",
     capabilities: ["Machine Learning & Deep Learning", "Generative AI Integration", "Data Lakehouse Architecture", "Real-Time Analytics", "Natural Language Processing", "Computer Vision"],
   },
   {
     icon: <Cog size={28} />,
     title: "Pulse",
     subtitle: "Service Management & Automation",
-    image: "/images/pulse-automation.jpg",
+    image: "/images/parallax/pulse-automation.jpg",
     fallbackImage: "/images/service-management.svg",
-    desc: "The heartbeat of modern IT operations. Intelligent ITSM platforms, robotic process automation, and AI-powered help desks that slash response times and eliminate manual toil.",
+    desc: "Streamline operations. Intelligent automation that keeps your enterprise running at peak efficiency.",
     capabilities: ["ITSM Platform Implementation", "Robotic Process Automation", "AI-Powered Service Desk", "Workflow Orchestration", "Self-Service Portals", "Chatbot & Virtual Agent Deployment"],
   },
   {
     icon: <Globe size={28} />,
     title: "Horizon",
     subtitle: "Cloud & Edge Computing",
-    image: "/images/horizon-cloud.jpg",
+    image: "/images/parallax/horizon-cloud-edge.jpg",
     fallbackImage: "/images/cloud-infrastructure.svg",
-    desc: "From government cloud to the tactical edge — we architect, migrate, and manage workloads across AWS GovCloud, Azure Government, and on-premise environments with full ATO support.",
+    desc: "Compute where you need it most. Seamlessly extending enterprise cloud capabilities directly to the tactical edge.",
     capabilities: ["Cloud Migration Strategy", "AWS GovCloud / Azure Gov", "FedRAMP Authorization Support", "Multi-Cloud Management", "Tactical Edge Deployments", "Disconnected & Austere Environments"],
   },
 ];
@@ -66,7 +66,7 @@ export default function Solutions() {
     const observerOptions: IntersectionObserverInit = {
       root: null,
       rootMargin: "0px",
-      threshold: 0.4,
+      threshold: 0.35,
     };
 
     const scrollObserver = new IntersectionObserver((entries) => {
@@ -82,7 +82,7 @@ export default function Solutions() {
     const panels = document.querySelectorAll(".scrolly-panel");
     panels.forEach((panel) => scrollObserver.observe(panel));
 
-    // Image fallback handler — if JPG exists, use it; otherwise SVG
+    // Image fallback handler — try JPG first, fall back to SVG
     const bgElements = document.querySelectorAll<HTMLElement>(".sticky-background");
     bgElements.forEach((el) => {
       const fallback = el.dataset.fallback;
@@ -90,7 +90,7 @@ export default function Solutions() {
       if (primary) {
         const img = new Image();
         img.onload = () => {
-          el.style.backgroundImage = `linear-gradient(rgba(4,10,24,0.55), rgba(4,10,24,0.7)), url('${primary}')`;
+          el.style.backgroundImage = `linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.65)), url('${primary}')`;
         };
         img.onerror = () => {
           if (fallback) {
@@ -118,44 +118,25 @@ export default function Solutions() {
       >
         <div className="noise-overlay" />
         <div style={{ position: "relative", zIndex: 2 }}>
-          <div
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: 8,
-              color: "var(--teal-400)",
-              fontSize: 13,
-              fontWeight: 600,
-              letterSpacing: "2px",
-              textTransform: "uppercase",
-              marginBottom: 16,
-            }}
-          >
+          <div style={{
+            display: "inline-flex", alignItems: "center", gap: 8,
+            color: "var(--teal-400)", fontSize: 13, fontWeight: 600,
+            letterSpacing: "2px", textTransform: "uppercase", marginBottom: 16,
+          }}>
             <div style={{ width: 30, height: 2, background: "var(--teal-500)" }} /> TECHNOLOGY FOCUS{" "}
             <div style={{ width: 30, height: 2, background: "var(--teal-500)" }} />
           </div>
-          <h2
-            style={{
-              fontFamily: "'Outfit'",
-              fontSize: "clamp(32px,3.5vw,48px)",
-              fontWeight: 800,
-              lineHeight: 1.1,
-              marginBottom: 16,
-            }}
-          >
-            Six Practices.
-            <br />
+          <h2 style={{
+            fontFamily: "'Outfit'", fontSize: "clamp(32px,3.5vw,48px)",
+            fontWeight: 800, lineHeight: 1.1, marginBottom: 16,
+          }}>
+            Six Practices.<br />
             <span style={{ color: "var(--teal-400)" }}>One Mission.</span>
           </h2>
-          <p
-            style={{
-              fontSize: 17,
-              color: "var(--slate-400)",
-              maxWidth: 660,
-              margin: "0 auto",
-              lineHeight: 1.7,
-            }}
-          >
+          <p style={{
+            fontSize: 17, color: "var(--slate-400)", maxWidth: 660,
+            margin: "0 auto", lineHeight: 1.7,
+          }}>
             Each practice is purpose-built to solve a specific class of problem — and battle-tested
             across the most demanding government and enterprise environments in the country.
           </p>
@@ -170,21 +151,17 @@ export default function Solutions() {
             data-primary={s.image}
             data-fallback={s.fallbackImage}
             style={{
-              backgroundImage: `linear-gradient(rgba(4,10,24,0.5), rgba(4,10,24,0.65)), url('${s.fallbackImage}')`,
+              backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('${s.fallbackImage}')`,
             }}
           />
           <div className="scrolling-content">
             <div className="scrolly-panel">
               <div className="scrolly-panel-inner">
-                {/* Practice number indicator */}
+                {/* Practice number */}
                 <div style={{
-                  fontSize: 12,
-                  fontWeight: 700,
-                  color: "var(--teal-400)",
-                  letterSpacing: "2px",
-                  textTransform: "uppercase",
-                  marginBottom: 16,
-                  opacity: 0.7,
+                  fontSize: 12, fontWeight: 700, color: "var(--teal-400)",
+                  letterSpacing: "2px", textTransform: "uppercase",
+                  marginBottom: 16, opacity: 0.7,
                 }}>
                   PRACTICE {String(i + 1).padStart(2, "0")} / 06
                 </div>
@@ -203,8 +180,7 @@ export default function Solutions() {
                   </div>
                   <div>
                     <h2 style={{
-                      fontFamily: "'Outfit'",
-                      fontSize: "clamp(28px, 4vw, 48px)",
+                      fontFamily: "'Outfit'", fontSize: "clamp(28px, 4vw, 48px)",
                       fontWeight: 800, lineHeight: 1.1, color: "white",
                     }}>
                       {s.title}
@@ -227,7 +203,7 @@ export default function Solutions() {
                   {s.desc}
                 </p>
 
-                {/* Capabilities as pills */}
+                {/* Capability pills */}
                 <div style={{ display: "flex", flexWrap: "wrap", gap: 10, maxWidth: 700 }}>
                   {s.capabilities.map((c, j) => (
                     <div key={j} style={{
@@ -236,8 +212,7 @@ export default function Solutions() {
                       background: "rgba(14,165,233,0.1)",
                       border: "1px solid rgba(14,165,233,0.2)",
                       borderRadius: 100, fontSize: 13, fontWeight: 500,
-                      color: "var(--teal-300)",
-                      backdropFilter: "blur(6px)",
+                      color: "var(--teal-300)", backdropFilter: "blur(6px)",
                     }}>
                       <ChevronRight size={12} style={{ color: "var(--teal-400)", flexShrink: 0 }} />
                       {c}

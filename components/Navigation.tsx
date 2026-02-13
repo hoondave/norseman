@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { ChevronDown, Menu, X } from "lucide-react";
 
 const navLinks = [
-  { label: "Home", href: "#home" },
+  { label: "Home", href: "#hero-section" },
   {
     label: "Company",
     href: "#about",
@@ -84,7 +84,7 @@ export default function Navigation() {
       >
         {/* Logo */}
         <a
-          href="#home"
+          href="#hero-section"
           style={{
             display: "flex",
             alignItems: "center",
