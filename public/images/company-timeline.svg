@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0e1a"/>
+      <stop offset="100%" style="stop-color:#0d1321"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bgGrad)"/>
+
+  <line x1="0" y1="0" x2="0" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="60" y1="0" x2="60" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="120" y1="0" x2="120" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="180" y1="0" x2="180" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="240" y1="0" x2="240" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="300" y1="0" x2="300" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="360" y1="0" x2="360" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="420" y1="0" x2="420" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="480" y1="0" x2="480" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="540" y1="0" x2="540" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="600" y1="0" x2="600" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="660" y1="0" x2="660" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="720" y1="0" x2="720" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="780" y1="0" x2="780" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="840" y1="0" x2="840" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="900" y1="0" x2="900" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="960" y1="0" x2="960" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="1020" y1="0" x2="1020" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="1080" y1="0" x2="1080" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="1140" y1="0" x2="1140" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="1200" y1="0" x2="1200" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="0" x2="1200" y2="0" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="60" x2="1200" y2="60" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="120" x2="1200" y2="120" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="180" x2="1200" y2="180" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="240" x2="1200" y2="240" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="300" x2="1200" y2="300" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="360" x2="1200" y2="360" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="420" x2="1200" y2="420" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="480" x2="1200" y2="480" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="540" x2="1200" y2="540" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="600" x2="1200" y2="600" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="660" x2="1200" y2="660" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="720" x2="1200" y2="720" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="780" x2="1200" y2="780" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+  <!-- Timeline line -->
+  <line x1="100" y1="400" x2="1100" y2="400" stroke="#0ea5e9" stroke-opacity="0.2" stroke-width="2"/>
+  <!-- Glow line -->
+  <line x1="100" y1="400" x2="1100" y2="400" stroke="#0ea5e9" stroke-opacity="0.05" stroke-width="8" filter="url(#softGlow)"/>
+  
+    <circle cx="130" cy="400" r="8" fill="#0ea5e9" opacity="0.6" filter="url(#glow)"/>
+    <circle cx="130" cy="400" r="15" fill="none" stroke="#0ea5e9" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="130" y="380" font-family="sans-serif" font-size="14" fill="#0ea5e9" font-weight="bold" opacity="0.8" text-anchor="middle">1990</text>
+    <text x="130" y="440" font-family="sans-serif" font-size="11" fill="#ffffff" opacity="0.5" text-anchor="middle">Founded</text>
+    <circle cx="320" cy="400" r="8" fill="#0ea5e9" opacity="0.6" filter="url(#glow)"/>
+    <circle cx="320" cy="400" r="15" fill="none" stroke="#0ea5e9" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="320" y="380" font-family="sans-serif" font-size="14" fill="#0ea5e9" font-weight="bold" opacity="0.8" text-anchor="middle">2000</text>
+    <text x="320" y="440" font-family="sans-serif" font-size="11" fill="#ffffff" opacity="0.5" text-anchor="middle">Federal</text><text x="320" y="455" font-family="sans-serif" font-size="11" fill="#ffffff" opacity="0.5" text-anchor="middle">Expansion</text>
+    <circle cx="510" cy="400" r="8" fill="#0ea5e9" opacity="0.6" filter="url(#glow)"/>
+    <circle cx="510" cy="400" r="15" fill="none" stroke="#0ea5e9" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="510" y="380" font-family="sans-serif" font-size="14" fill="#0ea5e9" font-weight="bold" opacity="0.8" text-anchor="middle">2010</text>
+    <text x="510" y="440" font-family="sans-serif" font-size="11" fill="#ffffff" opacity="0.5" text-anchor="middle">DoD</text><text x="510" y="455" font-family="sans-serif" font-size="11" fill="#ffffff" opacity="0.5" text-anchor="middle">Contracts</text>
+    <circle cx="700" cy="400" r="8" fill="#0ea5e9" opacity="0.6" filter="url(#glow)"/>
+    <circle cx="700" cy="400" r="15" fill="none" stroke="#0ea5e9" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="700" y="380" font-family="sans-serif" font-size="14" fill="#0ea5e9" font-weight="bold" opacity="0.8" text-anchor="middle">2015</text>
+    <text x="700" y="440" font-family="sans-serif" font-size="11" fill="#ffffff" opacity="0.5" text-anchor="middle">Cyber</text><text x="700" y="455" font-family="sans-serif" font-size="11" fill="#ffffff" opacity="0.5" text-anchor="middle">Practice</text>
+    <circle cx="890" cy="400" r="8" fill="#0ea5e9" opacity="0.6" filter="url(#glow)"/>
+    <circle cx="890" cy="400" r="15" fill="none" stroke="#0ea5e9" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="890" y="380" font-family="sans-serif" font-size="14" fill="#0ea5e9" font-weight="bold" opacity="0.8" text-anchor="middle">2020</text>
+    <text x="890" y="440" font-family="sans-serif" font-size="11" fill="#ffffff" opacity="0.5" text-anchor="middle">AI/ML</text><text x="890" y="455" font-family="sans-serif" font-size="11" fill="#ffffff" opacity="0.5" text-anchor="middle">Division</text>
+    <circle cx="1080" cy="400" r="8" fill="#0ea5e9" opacity="0.6" filter="url(#glow)"/>
+    <circle cx="1080" cy="400" r="15" fill="none" stroke="#0ea5e9" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="1080" y="380" font-family="sans-serif" font-size="14" fill="#0ea5e9" font-weight="bold" opacity="0.8" text-anchor="middle">2025</text>
+    <text x="1080" y="440" font-family="sans-serif" font-size="11" fill="#ffffff" opacity="0.5" text-anchor="middle">Cloud</text><text x="1080" y="455" font-family="sans-serif" font-size="11" fill="#ffffff" opacity="0.5" text-anchor="middle">Edge</text>
+  <circle cx="293" cy="509" r="1.3063711293783584" fill="#0ea5e9" opacity="0.324320451145257"/>
+<circle cx="785" cy="445" r="2.4038814537113087" fill="#0ea5e9" opacity="0.37383906648493137"/>
+<circle cx="1120" cy="700" r="2.651207018172914" fill="#0ea5e9" opacity="0.3285578859913322"/>
+<circle cx="187" cy="558" r="1.8934959549929666" fill="#0ea5e9" opacity="0.3111298375467618"/>
+<circle cx="179" cy="597" r="1.2244175830745405" fill="#0ea5e9" opacity="0.3486322161875276"/>
+<circle cx="1055" cy="227" r="2.145403348455729" fill="#0ea5e9" opacity="0.1449557144147243"/>
+<circle cx="691" cy="552" r="1.8836811053192617" fill="#0ea5e9" opacity="0.3040885713817213"/>
+<circle cx="1021" cy="113" r="2.7977787034269475" fill="#0ea5e9" opacity="0.23364480765616616"/>
+<circle cx="133" cy="484" r="1.263888679642198" fill="#0ea5e9" opacity="0.22462737215339795"/>
+<circle cx="1174" cy="79" r="2.1175943979975327" fill="#0ea5e9" opacity="0.3018303136682109"/>
+<circle cx="651" cy="760" r="1.0435409157864557" fill="#0ea5e9" opacity="0.17633716572028374"/>
+<circle cx="26" cy="243" r="2.156622530118071" fill="#0ea5e9" opacity="0.11358694081834864"/>
+<circle cx="725" cy="737" r="1.1275198242241664" fill="#0ea5e9" opacity="0.39823709814307606"/>
+<circle cx="161" cy="503" r="1.063469742046158" fill="#0ea5e9" opacity="0.2226600807457745"/>
+<circle cx="297" cy="676" r="2.9566665698482018" fill="#0ea5e9" opacity="0.2937642454291491"/>
+
+</svg>

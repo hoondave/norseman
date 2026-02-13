@@ -16,10 +16,13 @@ export default function Home() {
     <main>
       <Navigation />
       <Hero />
+      <img src="/images/divider-wave.svg" alt="" style={{ width: "100%", height: "auto", display: "block", marginTop: -2 }} />
       <About />
       <Solutions />
+      <img src="/images/divider-wave.svg" alt="" style={{ width: "100%", height: "auto", display: "block", marginTop: -2, transform: "scaleX(-1)" }} />
       <Markets />
       <Contracts />
+      <img src="/images/divider-wave.svg" alt="" style={{ width: "100%", height: "auto", display: "block", marginTop: -2 }} />
       <Partners />
       <Locations />
       <Certifications />

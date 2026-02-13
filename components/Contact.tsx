@@ -9,6 +9,7 @@ export default function Contact() {
   return (
     <section id="contact" ref={ref} style={{ position: "relative", padding: "120px 24px", background: "linear-gradient(180deg, var(--navy-900), var(--navy-950))" }}>
       <div className="noise-overlay" />
+      <img src="/images/contact-communication.svg" alt="" style={{ position: "absolute", right: 0, top: 0, width: "50%", height: "100%", objectFit: "cover", opacity: 0.08, pointerEvents: "none" }} />
       <div style={{ maxWidth: 1280, margin: "0 auto", position: "relative", zIndex: 2 }}>
         <div className="contact-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 80, alignItems: "start" }}>
           <div style={visible ? { animation: "slideInLeft 0.7s ease-out forwards" } : { opacity: 0 }}>

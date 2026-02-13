@@ -15,6 +15,7 @@ export default function Partners() {
   return (
     <section id="partners" ref={ref} style={{ position: "relative", padding: "120px 24px", background: "linear-gradient(180deg, var(--navy-950), var(--navy-900))" }}>
       <div className="noise-overlay" />
+      <img src="/images/partners-ecosystem.svg" alt="" style={{ position: "absolute", left: "50%", top: "50%", transform: "translate(-50%,-50%)", width: "80%", height: "auto", opacity: 0.08, pointerEvents: "none" }} />
       <div style={{ maxWidth: 1280, margin: "0 auto", position: "relative", zIndex: 2 }}>
         <div style={{ textAlign: "center", marginBottom: 64 }}>
           <div style={{ display: "inline-flex", alignItems: "center", gap: 8, color: "var(--teal-400)", fontSize: 13, fontWeight: 600, letterSpacing: "2px", textTransform: "uppercase", marginBottom: 16 }}>

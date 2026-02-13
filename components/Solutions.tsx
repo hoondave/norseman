@@ -7,31 +7,37 @@ import { useInView } from "./useInView";
 const solutions = [
   {
     icon: <Server size={24} />, title: "Foundry", subtitle: "IT Infrastructure",
+    image: "/images/data-center.svg",
     desc: "Your mission runs on infrastructure — we make sure it's bulletproof. Foundry is our end-to-end practice for designing, deploying, and managing the compute, storage, and network backbone your enterprise depends on. From hyperconverged platforms and high-performance GPU clusters to hybrid cloud environments, we engineer foundations built to scale.",
     capabilities: ["Hybrid Cloud Architecture", "HPC / GPU Computing", "Storage & Data Management", "Network Modernization", "Edge Computing", "Data Center Consolidation"],
   },
   {
     icon: <Lock size={24} />, title: "Sentinel", subtitle: "Cyber Security",
+    image: "/images/cybersecurity.svg",
     desc: "Threats don't sleep. Neither does Sentinel. Our cybersecurity practice delivers always-on protection through zero-trust architectures, advanced threat detection, and continuous monitoring — all built to meet the most stringent federal compliance requirements. We secure the networks that protect the nation.",
     capabilities: ["Zero Trust Architecture", "SIEM & SOAR", "Endpoint Detection & Response", "Identity & Access Management", "Compliance (CMMC, NIST, FedRAMP)", "Penetration Testing"],
   },
   {
     icon: <Code size={24} />, title: "Forge", subtitle: "DevSecOps",
+    image: "/images/devsecops.svg",
     desc: "Ship faster without cutting corners. Forge is our DevSecOps practice — embedding security into every phase of the software lifecycle so your teams can deliver rapid, compliant releases across classified and unclassified environments. We build the pipelines, automate the guardrails, and accelerate your path to production.",
     capabilities: ["CI/CD Pipeline Design", "Container Orchestration", "Infrastructure as Code", "Automated Security Scanning", "GitOps & Platform Engineering", "Accreditation Acceleration"],
   },
   {
     icon: <Brain size={24} />, title: "Cortex", subtitle: "AI & Data Intelligence",
+    image: "/images/ai-neural-network.svg",
     desc: "Data is only as valuable as the decisions it drives. Cortex is our AI and analytics practice — transforming raw data into actionable intelligence at the speed of mission. From predictive models and generative AI to enterprise data platforms, we build the intelligence layer that gives your organization an unfair advantage.",
     capabilities: ["Machine Learning & Deep Learning", "Generative AI Integration", "Data Lakehouse Architecture", "Real-Time Analytics", "Natural Language Processing", "Computer Vision"],
   },
   {
     icon: <Cog size={24} />, title: "Pulse", subtitle: "Service Management & Automation",
+    image: "/images/service-management.svg",
     desc: "The heartbeat of modern IT operations. Pulse is our service automation practice — implementing intelligent ITSM platforms, robotic process automation, and AI-powered help desks that slash response times and eliminate manual toil. We orchestrate the workflows that keep your enterprise running at peak performance.",
     capabilities: ["ITSM Platform Implementation", "Robotic Process Automation", "AI-Powered Service Desk", "Workflow Orchestration", "Self-Service Portals", "Chatbot & Virtual Agent Deployment"],
   },
   {
     icon: <Globe size={24} />, title: "Horizon", subtitle: "Cloud & Edge Computing",
+    image: "/images/cloud-infrastructure.svg",
     desc: "From government cloud to the tactical edge — Horizon takes you there. We architect, migrate, and manage workloads across AWS GovCloud, Azure Government, and on-premise environments with full ATO support. Whether it's a data center in Virginia or a disconnected node in an austere theater, we bridge every environment.",
     capabilities: ["Cloud Migration Strategy", "AWS GovCloud / Azure Gov", "FedRAMP Authorization Support", "Multi-Cloud Management", "Tactical Edge Deployments", "Disconnected & Austere Environments"],
   },
@@ -79,6 +85,10 @@ export default function Solutions() {
           </div>
 
           <div key={active} style={{ background: "rgba(14,165,233,0.04)", border: "1px solid rgba(14,165,233,0.1)", borderRadius: 18, padding: "48px 44px", animation: "fadeIn 0.4s ease-out" }}>
+            {/* Solution illustration */}
+            <div style={{ marginBottom: 28, borderRadius: 12, overflow: "hidden", border: "1px solid rgba(14,165,233,0.08)", maxHeight: 200 }}>
+              <img src={solutions[active].image} alt={solutions[active].title} style={{ width: "100%", height: 200, objectFit: "cover", display: "block" }} />
+            </div>
             <div style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 24 }}>
               <div style={{ width: 56, height: 56, borderRadius: 14, background: "linear-gradient(135deg, rgba(14,165,233,0.2), rgba(14,165,233,0.05))", display: "flex", alignItems: "center", justifyContent: "center", color: "var(--teal-400)", flexShrink: 0 }}>
                 {solutions[active].icon}

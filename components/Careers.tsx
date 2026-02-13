@@ -9,6 +9,7 @@ export default function Careers() {
   return (
     <section id="careers" ref={ref} style={{ position: "relative", padding: "100px 24px", background: "linear-gradient(180deg, var(--navy-950), var(--navy-900))" }}>
       <div className="noise-overlay" />
+      <img src="/images/careers-team.svg" alt="" style={{ position: "absolute", left: 0, bottom: 0, width: "100%", height: "60%", objectFit: "cover", opacity: 0.1, pointerEvents: "none" }} />
       <div style={{
         maxWidth: 900, margin: "0 auto", position: "relative", zIndex: 2, textAlign: "center",
         ...(visible ? { animation: "fadeInUp 0.7s ease-out forwards" } : { opacity: 0 }),

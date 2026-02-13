@@ -25,6 +25,10 @@ export default function Hero() {
     >
       <div className="grid-bg" />
       <div className="noise-overlay" />
+      
+      {/* SVG background illustrations */}
+      <img src="/images/hero-bg.svg" alt="" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", opacity: 0.6, pointerEvents: "none" }} />
+      <img src="/images/hero-geometric.svg" alt="" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", opacity: 0.3, pointerEvents: "none", mixBlendMode: "screen" }} />
 
       {/* Decorative orbs */}
       <div

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0e1a"/>
+      <stop offset="100%" style="stop-color:#0d1321"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bgGrad)"/>
+
+  <line x1="0" y1="0" x2="0" y2="800" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="60" y1="0" x2="60" y2="800" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="120" y1="0" x2="120" y2="800" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="180" y1="0" x2="180" y2="800" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="240" y1="0" x2="240" y2="800" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="300" y1="0" x2="300" y2="800" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="360" y1="0" x2="360" y2="800" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="420" y1="0" x2="420" y2="800" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="480" y1="0" x2="480" y2="800" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="540" y1="0" x2="540" y2="800" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="600" y1="0" x2="600" y2="800" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="660" y1="0" x2="660" y2="800" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="720" y1="0" x2="720" y2="800" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="780" y1="0" x2="780" y2="800" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="840" y1="0" x2="840" y2="800" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="900" y1="0" x2="900" y2="800" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="960" y1="0" x2="960" y2="800" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="1020" y1="0" x2="1020" y2="800" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="1080" y1="0" x2="1080" y2="800" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="1140" y1="0" x2="1140" y2="800" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="1200" y1="0" x2="1200" y2="800" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="0" y1="0" x2="1200" y2="0" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="0" y1="60" x2="1200" y2="60" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="0" y1="120" x2="1200" y2="120" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="0" y1="180" x2="1200" y2="180" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="0" y1="240" x2="1200" y2="240" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="0" y1="300" x2="1200" y2="300" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="0" y1="360" x2="1200" y2="360" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="0" y1="420" x2="1200" y2="420" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="0" y1="480" x2="1200" y2="480" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="0" y1="540" x2="1200" y2="540" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="0" y1="600" x2="1200" y2="600" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="0" y1="660" x2="1200" y2="660" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="0" y1="720" x2="1200" y2="720" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+<line x1="0" y1="780" x2="1200" y2="780" stroke="#0ea5e9" stroke-opacity="0.04" stroke-width="0.5"/>
+  <line x1="278" y1="75" x2="507" y2="192" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="278" y1="75" x2="111" y2="145" stroke="#0ea5e9" stroke-opacity="0.0594613342267515" stroke-width="0.5"/>
+<line x1="278" y1="75" x2="368" y2="270" stroke="#0ea5e9" stroke-opacity="0.042616342025427356" stroke-width="0.5"/>
+<line x1="278" y1="75" x2="443" y2="121" stroke="#0ea5e9" stroke-opacity="0.06435392595103964" stroke-width="0.5"/>
+<line x1="278" y1="75" x2="213" y2="288" stroke="#0ea5e9" stroke-opacity="0.038651448145923334" stroke-width="0.5"/>
+<line x1="613" y1="300" x2="507" y2="192" stroke="#0ea5e9" stroke-opacity="0.07433627024789222" stroke-width="0.5"/>
+<line x1="613" y1="300" x2="497" y2="288" stroke="#0ea5e9" stroke-opacity="0.091690481051547" stroke-width="0.5"/>
+<line x1="613" y1="300" x2="909" y2="275" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="613" y1="300" x2="619" y2="56" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="613" y1="300" x2="376" y2="482" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="613" y1="300" x2="746" y2="334" stroke="#0ea5e9" stroke-opacity="0.08136145397810352" stroke-width="0.5"/>
+<line x1="613" y1="300" x2="368" y2="270" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="613" y1="300" x2="739" y2="154" stroke="#0ea5e9" stroke-opacity="0.053573862464578625" stroke-width="0.5"/>
+<line x1="613" y1="300" x2="591" y2="94" stroke="#0ea5e9" stroke-opacity="0.046414286699371504" stroke-width="0.5"/>
+<line x1="613" y1="300" x2="443" y2="121" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="613" y1="300" x2="516" y2="346" stroke="#0ea5e9" stroke-opacity="0.09632272361604027" stroke-width="0.5"/>
+<line x1="613" y1="300" x2="619" y2="514" stroke="#0ea5e9" stroke-opacity="0.0429579521870027" stroke-width="0.5"/>
+<line x1="613" y1="300" x2="797" y2="216" stroke="#0ea5e9" stroke-opacity="0.04886642496183574" stroke-width="0.5"/>
+<line x1="613" y1="300" x2="808" y2="413" stroke="#0ea5e9" stroke-opacity="0.03731237867449681" stroke-width="0.5"/>
+<line x1="613" y1="300" x2="551" y2="217" stroke="#0ea5e9" stroke-opacity="0.0981999034749934" stroke-width="0.5"/>
+<line x1="507" y1="192" x2="497" y2="288" stroke="#0ea5e9" stroke-opacity="0.10174028595194537" stroke-width="0.5"/>
+<line x1="507" y1="192" x2="619" y2="56" stroke="#0ea5e9" stroke-opacity="0.06190913781781904" stroke-width="0.5"/>
+<line x1="507" y1="192" x2="746" y2="334" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="507" y1="192" x2="368" y2="270" stroke="#0ea5e9" stroke-opacity="0.07030526993583577" stroke-width="0.5"/>
+<line x1="507" y1="192" x2="739" y2="154" stroke="#0ea5e9" stroke-opacity="0.0324542642202619" stroke-width="0.5"/>
+<line x1="507" y1="192" x2="591" y2="94" stroke="#0ea5e9" stroke-opacity="0.08546318879894978" stroke-width="0.5"/>
+<line x1="507" y1="192" x2="443" y2="121" stroke="#0ea5e9" stroke-opacity="0.1022061719465787" stroke-width="0.5"/>
+<line x1="507" y1="192" x2="516" y2="346" stroke="#0ea5e9" stroke-opacity="0.07286861857842813" stroke-width="0.5"/>
+<line x1="507" y1="192" x2="797" y2="216" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="507" y1="192" x2="551" y2="217" stroke="#0ea5e9" stroke-opacity="0.12469683814224" stroke-width="0.5"/>
+<line x1="259" y1="742" x2="228" y2="654" stroke="#0ea5e9" stroke-opacity="0.10334970525280682" stroke-width="0.5"/>
+<line x1="259" y1="742" x2="104" y2="624" stroke="#0ea5e9" stroke-opacity="0.052597484632069175" stroke-width="0.5"/>
+<line x1="259" y1="742" x2="457" y2="715" stroke="#0ea5e9" stroke-opacity="0.05008378509971467" stroke-width="0.5"/>
+<line x1="259" y1="742" x2="376" y2="482" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="259" y1="742" x2="211" y2="615" stroke="#0ea5e9" stroke-opacity="0.08211590760715733" stroke-width="0.5"/>
+<line x1="259" y1="742" x2="143" y2="727" stroke="#0ea5e9" stroke-opacity="0.09151709651530629" stroke-width="0.5"/>
+<line x1="259" y1="742" x2="479" y2="736" stroke="#0ea5e9" stroke-opacity="0.039959098513325506" stroke-width="0.5"/>
+<line x1="259" y1="742" x2="196" y2="673" stroke="#0ea5e9" stroke-opacity="0.10328276549280768" stroke-width="0.5"/>
+<line x1="259" y1="742" x2="400" y2="596" stroke="#0ea5e9" stroke-opacity="0.04851477940113644" stroke-width="0.5"/>
+<line x1="228" y1="654" x2="104" y2="624" stroke="#0ea5e9" stroke-opacity="0.08621128626473175" stroke-width="0.5"/>
+<line x1="228" y1="654" x2="457" y2="715" stroke="#0ea5e9" stroke-opacity="0.03150738419631373" stroke-width="0.5"/>
+<line x1="228" y1="654" x2="376" y2="482" stroke="#0ea5e9" stroke-opacity="0.03654516317053731" stroke-width="0.5"/>
+<line x1="228" y1="654" x2="239" y2="439" stroke="#0ea5e9" stroke-opacity="0.04235939427892464" stroke-width="0.5"/>
+<line x1="228" y1="654" x2="248" y2="417" stroke="#0ea5e9" stroke-opacity="0.031078807607727035" stroke-width="0.5"/>
+<line x1="228" y1="654" x2="305" y2="437" stroke="#0ea5e9" stroke-opacity="0.034871810576210305" stroke-width="0.5"/>
+<line x1="228" y1="654" x2="211" y2="615" stroke="#0ea5e9" stroke-opacity="0.12872795261381734" stroke-width="0.5"/>
+<line x1="228" y1="654" x2="143" y2="727" stroke="#0ea5e9" stroke-opacity="0.0939776830182828" stroke-width="0.5"/>
+<line x1="228" y1="654" x2="256" y2="439" stroke="#0ea5e9" stroke-opacity="0.041592205077310054" stroke-width="0.5"/>
+<line x1="228" y1="654" x2="479" y2="736" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="228" y1="654" x2="196" y2="673" stroke="#0ea5e9" stroke-opacity="0.1313922059340716" stroke-width="0.5"/>
+<line x1="228" y1="654" x2="400" y2="596" stroke="#0ea5e9" stroke-opacity="0.059242080235386615" stroke-width="0.5"/>
+<line x1="914" y1="82" x2="909" y2="275" stroke="#0ea5e9" stroke-opacity="0.05346762201209378" stroke-width="0.5"/>
+<line x1="914" y1="82" x2="619" y2="56" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="914" y1="82" x2="739" y2="154" stroke="#0ea5e9" stroke-opacity="0.05538366948565379" stroke-width="0.5"/>
+<line x1="914" y1="82" x2="797" y2="216" stroke="#0ea5e9" stroke-opacity="0.06105479214707517" stroke-width="0.5"/>
+<line x1="111" y1="145" x2="368" y2="270" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="111" y1="145" x2="213" y2="288" stroke="#0ea5e9" stroke-opacity="0.06217488969548628" stroke-width="0.5"/>
+<line x1="497" y1="288" x2="619" y2="56" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="497" y1="288" x2="376" y2="482" stroke="#0ea5e9" stroke-opacity="0.035679179499095603" stroke-width="0.5"/>
+<line x1="497" y1="288" x2="746" y2="334" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="497" y1="288" x2="368" y2="270" stroke="#0ea5e9" stroke-opacity="0.08487511996172277" stroke-width="0.5"/>
+<line x1="497" y1="288" x2="739" y2="154" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="497" y1="288" x2="239" y2="439" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="497" y1="288" x2="248" y2="417" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="497" y1="288" x2="591" y2="94" stroke="#0ea5e9" stroke-opacity="0.04221317334664684" stroke-width="0.5"/>
+<line x1="497" y1="288" x2="305" y2="437" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="497" y1="288" x2="443" y2="121" stroke="#0ea5e9" stroke-opacity="0.062243233879090545" stroke-width="0.5"/>
+<line x1="497" y1="288" x2="516" y2="346" stroke="#0ea5e9" stroke-opacity="0.11948361096066573" stroke-width="0.5"/>
+<line x1="497" y1="288" x2="213" y2="288" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="497" y1="288" x2="256" y2="439" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="497" y1="288" x2="619" y2="514" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="497" y1="288" x2="551" y2="217" stroke="#0ea5e9" stroke-opacity="0.10539899104280262" stroke-width="0.5"/>
+<line x1="1084" y1="666" x2="969" y2="653" stroke="#0ea5e9" stroke-opacity="0.09213377496328276" stroke-width="0.5"/>
+<line x1="1084" y1="666" x2="990" y2="599" stroke="#0ea5e9" stroke-opacity="0.09228301809692402" stroke-width="0.5"/>
+<line x1="1084" y1="666" x2="790" y2="641" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="104" y1="624" x2="239" y2="439" stroke="#0ea5e9" stroke-opacity="0.03549017509401213" stroke-width="0.5"/>
+<line x1="104" y1="624" x2="248" y2="417" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="104" y1="624" x2="305" y2="437" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="104" y1="624" x2="211" y2="615" stroke="#0ea5e9" stroke-opacity="0.09631108121781554" stroke-width="0.5"/>
+<line x1="104" y1="624" x2="143" y2="727" stroke="#0ea5e9" stroke-opacity="0.09493186039096654" stroke-width="0.5"/>
+<line x1="104" y1="624" x2="256" y2="439" stroke="#0ea5e9" stroke-opacity="0.030282624485833284" stroke-width="0.5"/>
+<line x1="104" y1="624" x2="196" y2="673" stroke="#0ea5e9" stroke-opacity="0.09788234464214646" stroke-width="0.5"/>
+<line x1="104" y1="624" x2="400" y2="596" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="457" y1="715" x2="376" y2="482" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="457" y1="715" x2="211" y2="615" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="457" y1="715" x2="650" y2="693" stroke="#0ea5e9" stroke-opacity="0.05287508043761374" stroke-width="0.5"/>
+<line x1="457" y1="715" x2="619" y2="514" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="457" y1="715" x2="479" y2="736" stroke="#0ea5e9" stroke-opacity="0.13479309367425443" stroke-width="0.5"/>
+<line x1="457" y1="715" x2="596" y2="749" stroke="#0ea5e9" stroke-opacity="0.07845106569626631" stroke-width="0.5"/>
+<line x1="457" y1="715" x2="196" y2="673" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="457" y1="715" x2="400" y2="596" stroke="#0ea5e9" stroke-opacity="0.08402652047981703" stroke-width="0.5"/>
+<line x1="909" y1="275" x2="746" y2="334" stroke="#0ea5e9" stroke-opacity="0.0633253208832014" stroke-width="0.5"/>
+<line x1="909" y1="275" x2="739" y2="154" stroke="#0ea5e9" stroke-opacity="0.045667598513213545" stroke-width="0.5"/>
+<line x1="909" y1="275" x2="797" y2="216" stroke="#0ea5e9" stroke-opacity="0.08670505549413918" stroke-width="0.5"/>
+<line x1="909" y1="275" x2="808" y2="413" stroke="#0ea5e9" stroke-opacity="0.0644941522467615" stroke-width="0.5"/>
+<line x1="969" y1="653" x2="754" y2="668" stroke="#0ea5e9" stroke-opacity="0.042238689688738465" stroke-width="0.5"/>
+<line x1="969" y1="653" x2="990" y2="599" stroke="#0ea5e9" stroke-opacity="0.12103018812625804" stroke-width="0.5"/>
+<line x1="969" y1="653" x2="790" y2="641" stroke="#0ea5e9" stroke-opacity="0.060299108142672295" stroke-width="0.5"/>
+<line x1="969" y1="653" x2="808" y2="413" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="619" y1="56" x2="739" y2="154" stroke="#0ea5e9" stroke-opacity="0.07253387837254274" stroke-width="0.5"/>
+<line x1="619" y1="56" x2="591" y2="94" stroke="#0ea5e9" stroke-opacity="0.1263991525575881" stroke-width="0.5"/>
+<line x1="619" y1="56" x2="443" y2="121" stroke="#0ea5e9" stroke-opacity="0.05619035230851785" stroke-width="0.5"/>
+<line x1="619" y1="56" x2="797" y2="216" stroke="#0ea5e9" stroke-opacity="0.030329619370539296" stroke-width="0.5"/>
+<line x1="619" y1="56" x2="551" y2="217" stroke="#0ea5e9" stroke-opacity="0.06261436044749685" stroke-width="0.5"/>
+<line x1="376" y1="482" x2="368" y2="270" stroke="#0ea5e9" stroke-opacity="0.043924555150591044" stroke-width="0.5"/>
+<line x1="376" y1="482" x2="239" y2="439" stroke="#0ea5e9" stroke-opacity="0.07820515338828281" stroke-width="0.5"/>
+<line x1="376" y1="482" x2="248" y2="417" stroke="#0ea5e9" stroke-opacity="0.07822082474700617" stroke-width="0.5"/>
+<line x1="376" y1="482" x2="305" y2="437" stroke="#0ea5e9" stroke-opacity="0.10797024863266498" stroke-width="0.5"/>
+<line x1="376" y1="482" x2="211" y2="615" stroke="#0ea5e9" stroke-opacity="0.04403538326403478" stroke-width="0.5"/>
+<line x1="376" y1="482" x2="516" y2="346" stroke="#0ea5e9" stroke-opacity="0.05240901680995318" stroke-width="0.5"/>
+<line x1="376" y1="482" x2="213" y2="288" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="376" y1="482" x2="256" y2="439" stroke="#0ea5e9" stroke-opacity="0.08626421727161421" stroke-width="0.5"/>
+<line x1="376" y1="482" x2="619" y2="514" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="376" y1="482" x2="479" y2="736" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="376" y1="482" x2="196" y2="673" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="376" y1="482" x2="400" y2="596" stroke="#0ea5e9" stroke-opacity="0.0917505364831572" stroke-width="0.5"/>
+<line x1="746" y1="334" x2="739" y2="154" stroke="#0ea5e9" stroke-opacity="0.059931970155887165" stroke-width="0.5"/>
+<line x1="746" y1="334" x2="591" y2="94" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="746" y1="334" x2="516" y2="346" stroke="#0ea5e9" stroke-opacity="0.03484358463376866" stroke-width="0.5"/>
+<line x1="746" y1="334" x2="619" y2="514" stroke="#0ea5e9" stroke-opacity="0.03985350663775082" stroke-width="0.5"/>
+<line x1="746" y1="334" x2="797" y2="216" stroke="#0ea5e9" stroke-opacity="0.08572519933908779" stroke-width="0.5"/>
+<line x1="746" y1="334" x2="808" y2="413" stroke="#0ea5e9" stroke-opacity="0.09978794965349452" stroke-width="0.5"/>
+<line x1="746" y1="334" x2="551" y2="217" stroke="#0ea5e9" stroke-opacity="0.03629643805051663" stroke-width="0.5"/>
+<line x1="368" y1="270" x2="239" y2="439" stroke="#0ea5e9" stroke-opacity="0.043696190096497486" stroke-width="0.5"/>
+<line x1="368" y1="270" x2="248" y2="417" stroke="#0ea5e9" stroke-opacity="0.05511981239478918" stroke-width="0.5"/>
+<line x1="368" y1="270" x2="591" y2="94" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="368" y1="270" x2="305" y2="437" stroke="#0ea5e9" stroke-opacity="0.060755952579457706" stroke-width="0.5"/>
+<line x1="368" y1="270" x2="443" y2="121" stroke="#0ea5e9" stroke-opacity="0.06659436469878069" stroke-width="0.5"/>
+<line x1="368" y1="270" x2="516" y2="346" stroke="#0ea5e9" stroke-opacity="0.0668134626276583" stroke-width="0.5"/>
+<line x1="368" y1="270" x2="213" y2="288" stroke="#0ea5e9" stroke-opacity="0.07197916944815314" stroke-width="0.5"/>
+<line x1="368" y1="270" x2="256" y2="439" stroke="#0ea5e9" stroke-opacity="0.04862815972865048" stroke-width="0.5"/>
+<line x1="368" y1="270" x2="551" y2="217" stroke="#0ea5e9" stroke-opacity="0.054739829939265794" stroke-width="0.5"/>
+<line x1="739" y1="154" x2="591" y2="94" stroke="#0ea5e9" stroke-opacity="0.07015014088929147" stroke-width="0.5"/>
+<line x1="739" y1="154" x2="443" y2="121" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="739" y1="154" x2="516" y2="346" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="739" y1="154" x2="797" y2="216" stroke="#0ea5e9" stroke-opacity="0.10755002944641776" stroke-width="0.5"/>
+<line x1="739" y1="154" x2="808" y2="413" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="739" y1="154" x2="551" y2="217" stroke="#0ea5e9" stroke-opacity="0.05086246926617548" stroke-width="0.5"/>
+<line x1="239" y1="439" x2="248" y2="417" stroke="#0ea5e9" stroke-opacity="0.1381151356759953" stroke-width="0.5"/>
+<line x1="239" y1="439" x2="305" y2="437" stroke="#0ea5e9" stroke-opacity="0.11698485196156164" stroke-width="0.5"/>
+<line x1="239" y1="439" x2="211" y2="615" stroke="#0ea5e9" stroke-opacity="0.06089332236021815" stroke-width="0.5"/>
+<line x1="239" y1="439" x2="516" y2="346" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="239" y1="439" x2="213" y2="288" stroke="#0ea5e9" stroke-opacity="0.07338896946261589" stroke-width="0.5"/>
+<line x1="239" y1="439" x2="256" y2="439" stroke="#0ea5e9" stroke-opacity="0.1415" stroke-width="0.5"/>
+<line x1="239" y1="439" x2="196" y2="673" stroke="#0ea5e9" stroke-opacity="0.031040973440432024" stroke-width="0.5"/>
+<line x1="239" y1="439" x2="400" y2="596" stroke="#0ea5e9" stroke-opacity="0.037561127718213044" stroke-width="0.5"/>
+<line x1="248" y1="417" x2="305" y2="437" stroke="#0ea5e9" stroke-opacity="0.11979652337892208" stroke-width="0.5"/>
+<line x1="248" y1="417" x2="211" y2="615" stroke="#0ea5e9" stroke-opacity="0.04928629686085413" stroke-width="0.5"/>
+<line x1="248" y1="417" x2="516" y2="346" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="248" y1="417" x2="213" y2="288" stroke="#0ea5e9" stroke-opacity="0.08316812137909034" stroke-width="0.5"/>
+<line x1="248" y1="417" x2="256" y2="439" stroke="#0ea5e9" stroke-opacity="0.13829530008928037" stroke-width="0.5"/>
+<line x1="248" y1="417" x2="196" y2="673" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="248" y1="417" x2="400" y2="596" stroke="#0ea5e9" stroke-opacity="0.0325851372270103" stroke-width="0.5"/>
+<line x1="754" y1="668" x2="990" y2="599" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="754" y1="668" x2="650" y2="693" stroke="#0ea5e9" stroke-opacity="0.09651869485511783" stroke-width="0.5"/>
+<line x1="754" y1="668" x2="790" y2="641" stroke="#0ea5e9" stroke-opacity="0.1275" stroke-width="0.5"/>
+<line x1="754" y1="668" x2="619" y2="514" stroke="#0ea5e9" stroke-opacity="0.04760249026465535" stroke-width="0.5"/>
+<line x1="754" y1="668" x2="808" y2="413" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="754" y1="668" x2="479" y2="736" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="754" y1="668" x2="596" y2="749" stroke="#0ea5e9" stroke-opacity="0.061223595477176485" stroke-width="0.5"/>
+<line x1="591" y1="94" x2="443" y2="121" stroke="#0ea5e9" stroke-opacity="0.07477865994280612" stroke-width="0.5"/>
+<line x1="591" y1="94" x2="516" y2="346" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="591" y1="94" x2="797" y2="216" stroke="#0ea5e9" stroke-opacity="0.030292021986836642" stroke-width="0.5"/>
+<line x1="591" y1="94" x2="551" y2="217" stroke="#0ea5e9" stroke-opacity="0.08532968223365528" stroke-width="0.5"/>
+<line x1="990" y1="599" x2="790" y2="641" stroke="#0ea5e9" stroke-opacity="0.04781878841978825" stroke-width="0.5"/>
+<line x1="990" y1="599" x2="808" y2="413" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="305" y1="437" x2="211" y2="615" stroke="#0ea5e9" stroke-opacity="0.04935209887931094" stroke-width="0.5"/>
+<line x1="305" y1="437" x2="516" y2="346" stroke="#0ea5e9" stroke-opacity="0.03510657111914536" stroke-width="0.5"/>
+<line x1="305" y1="437" x2="213" y2="288" stroke="#0ea5e9" stroke-opacity="0.062442875789573804" stroke-width="0.5"/>
+<line x1="305" y1="437" x2="256" y2="439" stroke="#0ea5e9" stroke-opacity="0.12547960032952155" stroke-width="0.5"/>
+<line x1="305" y1="437" x2="196" y2="673" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="305" y1="437" x2="400" y2="596" stroke="#0ea5e9" stroke-opacity="0.05739060522819513" stroke-width="0.5"/>
+<line x1="211" y1="615" x2="143" y2="727" stroke="#0ea5e9" stroke-opacity="0.0844866425833632" stroke-width="0.5"/>
+<line x1="211" y1="615" x2="256" y2="439" stroke="#0ea5e9" stroke-opacity="0.05916911318279447" stroke-width="0.5"/>
+<line x1="211" y1="615" x2="479" y2="736" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="211" y1="615" x2="196" y2="673" stroke="#0ea5e9" stroke-opacity="0.12004586839849968" stroke-width="0.5"/>
+<line x1="211" y1="615" x2="400" y2="596" stroke="#0ea5e9" stroke-opacity="0.05502368716358799" stroke-width="0.5"/>
+<line x1="650" y1="693" x2="790" y2="641" stroke="#0ea5e9" stroke-opacity="0.07532738118962211" stroke-width="0.5"/>
+<line x1="650" y1="693" x2="619" y2="514" stroke="#0ea5e9" stroke-opacity="0.05916773700936434" stroke-width="0.5"/>
+<line x1="650" y1="693" x2="479" y2="736" stroke="#0ea5e9" stroke-opacity="0.06183821689643522" stroke-width="0.5"/>
+<line x1="650" y1="693" x2="596" y2="749" stroke="#0ea5e9" stroke-opacity="0.11110269932244654" stroke-width="0.5"/>
+<line x1="650" y1="693" x2="400" y2="596" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="790" y1="641" x2="619" y2="514" stroke="#0ea5e9" stroke-opacity="0.04349882629754731" stroke-width="0.5"/>
+<line x1="790" y1="641" x2="808" y2="413" stroke="#0ea5e9" stroke-opacity="0.03564528868472448" stroke-width="0.5"/>
+<line x1="790" y1="641" x2="596" y2="749" stroke="#0ea5e9" stroke-opacity="0.0389819834441274" stroke-width="0.5"/>
+<line x1="443" y1="121" x2="516" y2="346" stroke="#0ea5e9" stroke-opacity="0.03172701069136706" stroke-width="0.5"/>
+<line x1="443" y1="121" x2="213" y2="288" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="443" y1="121" x2="551" y2="217" stroke="#0ea5e9" stroke-opacity="0.07775043252724623" stroke-width="0.5"/>
+<line x1="143" y1="727" x2="196" y2="673" stroke="#0ea5e9" stroke-opacity="0.1121681351239461" stroke-width="0.5"/>
+<line x1="143" y1="727" x2="400" y2="596" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="516" y1="346" x2="256" y2="439" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="516" y1="346" x2="619" y2="514" stroke="#0ea5e9" stroke-opacity="0.05146954785448307" stroke-width="0.5"/>
+<line x1="516" y1="346" x2="808" y2="413" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="516" y1="346" x2="400" y2="596" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="516" y1="346" x2="551" y2="217" stroke="#0ea5e9" stroke-opacity="0.08316812137909034" stroke-width="0.5"/>
+<line x1="213" y1="288" x2="256" y2="439" stroke="#0ea5e9" stroke-opacity="0.07149840765946208" stroke-width="0.5"/>
+<line x1="256" y1="439" x2="196" y2="673" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="256" y1="439" x2="400" y2="596" stroke="#0ea5e9" stroke-opacity="0.04348122231268328" stroke-width="0.5"/>
+<line x1="619" y1="514" x2="808" y2="413" stroke="#0ea5e9" stroke-opacity="0.042852904845721546" stroke-width="0.5"/>
+<line x1="619" y1="514" x2="479" y2="736" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="619" y1="514" x2="596" y2="749" stroke="#0ea5e9" stroke-opacity="0.0319385753092908" stroke-width="0.5"/>
+<line x1="619" y1="514" x2="400" y2="596" stroke="#0ea5e9" stroke-opacity="0.0330758793062783" stroke-width="0.5"/>
+<line x1="797" y1="216" x2="808" y2="413" stroke="#0ea5e9" stroke-opacity="0.05134656620269114" stroke-width="0.5"/>
+<line x1="797" y1="216" x2="551" y2="217" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="479" y1="736" x2="596" y2="749" stroke="#0ea5e9" stroke-opacity="0.09113999660210678" stroke-width="0.5"/>
+<line x1="479" y1="736" x2="196" y2="673" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="479" y1="736" x2="400" y2="596" stroke="#0ea5e9" stroke-opacity="0.06962431959852533" stroke-width="0.5"/>
+<line x1="596" y1="749" x2="400" y2="596" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="196" y1="673" x2="400" y2="596" stroke="#0ea5e9" stroke-opacity="0.040975920091018414" stroke-width="0.5"/>
+  <circle cx="966" cy="408" r="1.539895653568556" fill="#0ea5e9" opacity="0.3776173538863654"/>
+<circle cx="1160" cy="244" r="2.369228501979749" fill="#0ea5e9" opacity="0.35285557605694295"/>
+<circle cx="134" cy="254" r="2.6436051880136167" fill="#0ea5e9" opacity="0.3415137402313644"/>
+<circle cx="841" cy="294" r="1.1323772104230945" fill="#0ea5e9" opacity="0.3739408372556635"/>
+<circle cx="664" cy="237" r="2.31087733058976" fill="#0ea5e9" opacity="0.2186895703181993"/>
+<circle cx="959" cy="166" r="1.529760332996105" fill="#0ea5e9" opacity="0.17398825230819503"/>
+<circle cx="1169" cy="571" r="1.5254832170458705" fill="#0ea5e9" opacity="0.27537579706706217"/>
+<circle cx="837" cy="390" r="1.4386415183145667" fill="#0ea5e9" opacity="0.39926128194853316"/>
+<circle cx="1063" cy="525" r="1.1818188243475878" fill="#0ea5e9" opacity="0.11413491262742037"/>
+<circle cx="244" cy="176" r="2.25489208340618" fill="#0ea5e9" opacity="0.33762380930888924"/>
+<circle cx="884" cy="630" r="1.1270554123039143" fill="#0ea5e9" opacity="0.21448578595196105"/>
+<circle cx="978" cy="561" r="1.5028282399636264" fill="#0ea5e9" opacity="0.2659677688645863"/>
+<circle cx="43" cy="716" r="2.441443638720389" fill="#0ea5e9" opacity="0.3045131107079725"/>
+<circle cx="1119" cy="293" r="2.537197465314892" fill="#0ea5e9" opacity="0.2020526419093136"/>
+<circle cx="621" cy="465" r="1.3163155086893394" fill="#0ea5e9" opacity="0.10097359483051879"/>
+<circle cx="559" cy="532" r="2.5239243981041293" fill="#0ea5e9" opacity="0.2523045023812976"/>
+<circle cx="237" cy="660" r="1.5968895828972658" fill="#0ea5e9" opacity="0.2916848484598016"/>
+<circle cx="427" cy="176" r="1.747827705182296" fill="#0ea5e9" opacity="0.14846471072594603"/>
+<circle cx="1106" cy="20" r="2.197889168920458" fill="#0ea5e9" opacity="0.2465817124086844"/>
+<circle cx="249" cy="391" r="2.7574437556463685" fill="#0ea5e9" opacity="0.3494996588083539"/>
+<circle cx="649" cy="265" r="1.115850332988375" fill="#0ea5e9" opacity="0.3634028797612122"/>
+<circle cx="181" cy="107" r="2.4638151896892557" fill="#0ea5e9" opacity="0.3448069760260266"/>
+<circle cx="1110" cy="148" r="1.2567829289995256" fill="#0ea5e9" opacity="0.24258471342961943"/>
+<circle cx="1145" cy="189" r="1.5301132578801182" fill="#0ea5e9" opacity="0.3617299123255773"/>
+<circle cx="886" cy="236" r="2.857826986004354" fill="#0ea5e9" opacity="0.32657955899074165"/>
+<circle cx="431" cy="750" r="1.62343258260179" fill="#0ea5e9" opacity="0.39854480699826844"/>
+<circle cx="784" cy="468" r="2.799228169285891" fill="#0ea5e9" opacity="0.23544584241733896"/>
+<circle cx="527" cy="250" r="1.1280517926526898" fill="#0ea5e9" opacity="0.10631027800211768"/>
+<circle cx="1154" cy="255" r="2.176880228820702" fill="#0ea5e9" opacity="0.10215725169552807"/>
+<circle cx="140" cy="254" r="1.134800656220615" fill="#0ea5e9" opacity="0.10942388741590545"/>
+<circle cx="696" cy="92" r="2.028312239617178" fill="#0ea5e9" opacity="0.1835431791893641"/>
+<circle cx="1014" cy="239" r="2.078467862789509" fill="#0ea5e9" opacity="0.3170057697642913"/>
+<circle cx="988" cy="268" r="2.5692388485815068" fill="#0ea5e9" opacity="0.34224909932999303"/>
+<circle cx="409" cy="116" r="1.1938616284576467" fill="#0ea5e9" opacity="0.22931535472191328"/>
+<circle cx="887" cy="440" r="1.93404933607335" fill="#0ea5e9" opacity="0.3187227548379552"/>
+<circle cx="221" cy="82" r="1.8052425642045375" fill="#0ea5e9" opacity="0.20179078161848896"/>
+<circle cx="243" cy="274" r="1.383180144283308" fill="#0ea5e9" opacity="0.26088572617310335"/>
+<circle cx="307" cy="452" r="1.3669760715744665" fill="#0ea5e9" opacity="0.23878842052029023"/>
+<circle cx="174" cy="473" r="2.6160444894634054" fill="#0ea5e9" opacity="0.3567900677405119"/>
+<circle cx="220" cy="71" r="2.3042897879970443" fill="#0ea5e9" opacity="0.26217638143009153"/>
+<circle cx="50" cy="115" r="2.852733966016255" fill="#0ea5e9" opacity="0.3546087203242917"/>
+<circle cx="360" cy="436" r="1.971282250901437" fill="#0ea5e9" opacity="0.1641241897597545"/>
+<circle cx="841" cy="80" r="1.3292742428030537" fill="#0ea5e9" opacity="0.10064661350542793"/>
+<circle cx="819" cy="291" r="2.853036147118667" fill="#0ea5e9" opacity="0.33553880703823646"/>
+<circle cx="604" cy="453" r="2.3931830072003253" fill="#0ea5e9" opacity="0.3191515952246399"/>
+<circle cx="1158" cy="697" r="2.436816550592652" fill="#0ea5e9" opacity="0.14643904758221926"/>
+<circle cx="627" cy="242" r="2.937418729938318" fill="#0ea5e9" opacity="0.27375408724487693"/>
+<circle cx="1130" cy="82" r="2.495951120758128" fill="#0ea5e9" opacity="0.11714958187224493"/>
+<circle cx="996" cy="534" r="2.8387742616641507" fill="#0ea5e9" opacity="0.2593378405811624"/>
+<circle cx="136" cy="540" r="1.1602229304811738" fill="#0ea5e9" opacity="0.15574748829421697"/>
+  <!-- Central glow -->
+  <ellipse cx="600" cy="400" rx="400" ry="300" fill="#0ea5e9" opacity="0.03"/>
+  <ellipse cx="600" cy="400" rx="200" ry="150" fill="#0ea5e9" opacity="0.05"/>
+  <!-- Accent nodes -->
+  <circle cx="400" cy="596" r="4" fill="#0ea5e9" opacity="0.6" filter="url(#glow)"/><circle cx="228" cy="654" r="4" fill="#0ea5e9" opacity="0.6" filter="url(#glow)"/><circle cx="746" cy="334" r="4" fill="#0ea5e9" opacity="0.6" filter="url(#glow)"/><circle cx="650" cy="693" r="4" fill="#0ea5e9" opacity="0.6" filter="url(#glow)"/><circle cx="497" cy="288" r="4" fill="#0ea5e9" opacity="0.6" filter="url(#glow)"/><circle cx="196" cy="673" r="4" fill="#0ea5e9" opacity="0.6" filter="url(#glow)"/><circle cx="507" cy="192" r="4" fill="#0ea5e9" opacity="0.6" filter="url(#glow)"/><circle cx="914" cy="82" r="4" fill="#0ea5e9" opacity="0.6" filter="url(#glow)"/><circle cx="790" cy="641" r="4" fill="#0ea5e9" opacity="0.6" filter="url(#glow)"/><circle cx="591" cy="94" r="4" fill="#0ea5e9" opacity="0.6" filter="url(#glow)"/><circle cx="239" cy="439" r="4" fill="#0ea5e9" opacity="0.6" filter="url(#glow)"/><circle cx="516" cy="346" r="4" fill="#0ea5e9" opacity="0.6" filter="url(#glow)"/>
+
+</svg>

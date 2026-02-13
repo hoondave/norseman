@@ -16,7 +16,12 @@ export default function About() {
   return (
     <section id="about" ref={ref} style={{ position: "relative", padding: "120px 24px", background: "linear-gradient(180deg, var(--navy-950), var(--navy-900))" }}>
       <div className="noise-overlay" />
+      <img src="/images/tech-grid.svg" alt="" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", opacity: 0.15, pointerEvents: "none" }} />
       <div style={{ maxWidth: 1280, margin: "0 auto", position: "relative", zIndex: 2 }}>
+        {/* Company timeline illustration */}
+        <div style={{ marginBottom: 60, borderRadius: 16, overflow: "hidden", border: "1px solid rgba(14,165,233,0.1)", ...(visible ? { animation: "fadeInUp 0.7s ease-out forwards" } : { opacity: 0 }) }}>
+          <img src="/images/company-timeline.svg" alt="Norseman company timeline" style={{ width: "100%", height: "auto", display: "block" }} />
+        </div>
         <div className="about-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 80, alignItems: "center" }}>
           <div style={visible ? { animation: "slideInLeft 0.7s ease-out forwards" } : { opacity: 0 }}>
             <div style={{ display: "inline-flex", alignItems: "center", gap: 8, color: "var(--teal-400)", fontSize: 13, fontWeight: 600, letterSpacing: "2px", textTransform: "uppercase", marginBottom: 16 }}>

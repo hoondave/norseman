@@ -19,6 +19,7 @@ export default function Contracts() {
   return (
     <section id="contracts" ref={ref} style={{ position: "relative", padding: "120px 24px", background: "var(--navy-900)" }}>
       <div className="noise-overlay" />
+      <img src="/images/contract-vehicles.svg" alt="" style={{ position: "absolute", right: 0, top: "50%", transform: "translateY(-50%)", width: "40%", height: "auto", opacity: 0.12, pointerEvents: "none" }} />
       <div style={{ maxWidth: 1280, margin: "0 auto", position: "relative", zIndex: 2 }}>
         <div style={{ textAlign: "center", marginBottom: 64 }}>
           <div style={{ display: "inline-flex", alignItems: "center", gap: 8, color: "var(--teal-400)", fontSize: 13, fontWeight: 600, letterSpacing: "2px", textTransform: "uppercase", marginBottom: 16 }}>

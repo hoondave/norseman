@@ -9,6 +9,7 @@ export default function Certifications() {
   return (
     <section id="certifications" ref={ref} style={{ position: "relative", padding: "100px 24px", background: "var(--navy-950)" }}>
       <div className="noise-overlay" />
+      <img src="/images/certifications.svg" alt="" style={{ position: "absolute", left: 0, top: 0, width: "100%", height: "100%", objectFit: "cover", opacity: 0.1, pointerEvents: "none" }} />
       <div style={{ maxWidth: 1280, margin: "0 auto", position: "relative", zIndex: 2 }}>
         <div className="cert-grid" style={{
           background: "linear-gradient(135deg, rgba(14,165,233,0.06), rgba(245,158,11,0.03))",

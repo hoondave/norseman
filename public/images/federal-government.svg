@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0e1a"/>
+      <stop offset="100%" style="stop-color:#0d1321"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bgGrad)"/>
+
+  <line x1="0" y1="0" x2="0" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="60" y1="0" x2="60" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="120" y1="0" x2="120" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="180" y1="0" x2="180" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="240" y1="0" x2="240" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="300" y1="0" x2="300" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="360" y1="0" x2="360" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="420" y1="0" x2="420" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="480" y1="0" x2="480" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="540" y1="0" x2="540" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="600" y1="0" x2="600" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="660" y1="0" x2="660" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="720" y1="0" x2="720" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="780" y1="0" x2="780" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="840" y1="0" x2="840" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="900" y1="0" x2="900" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="960" y1="0" x2="960" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="1020" y1="0" x2="1020" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="1080" y1="0" x2="1080" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="1140" y1="0" x2="1140" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="1200" y1="0" x2="1200" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="0" x2="1200" y2="0" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="60" x2="1200" y2="60" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="120" x2="1200" y2="120" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="180" x2="1200" y2="180" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="240" x2="1200" y2="240" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="300" x2="1200" y2="300" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="360" x2="1200" y2="360" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="420" x2="1200" y2="420" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="480" x2="1200" y2="480" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="540" x2="1200" y2="540" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="600" x2="1200" y2="600" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="660" x2="1200" y2="660" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="720" x2="1200" y2="720" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="780" x2="1200" y2="780" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+  <!-- Capitol-style dome building -->
+  <g transform="translate(600,400)">
+    <!-- Base platform -->
+    <rect x="-350" y="150" width="700" height="20" rx="2" fill="#1a2744" stroke="#0ea5e9" stroke-opacity="0.2" stroke-width="0.5"/>
+    <rect x="-300" y="130" width="600" height="25" rx="2" fill="#141c2e" stroke="#0ea5e9" stroke-opacity="0.3" stroke-width="0.5"/>
+    <!-- Columns -->
+    <rect x="-250" y="-50" width="15" height="180" rx="2" fill="#141c2e" stroke="#0ea5e9" stroke-opacity="0.3" stroke-width="0.5"/><rect x="-180" y="-50" width="15" height="180" rx="2" fill="#141c2e" stroke="#0ea5e9" stroke-opacity="0.3" stroke-width="0.5"/><rect x="-110" y="-50" width="15" height="180" rx="2" fill="#141c2e" stroke="#0ea5e9" stroke-opacity="0.3" stroke-width="0.5"/><rect x="-40" y="-50" width="15" height="180" rx="2" fill="#141c2e" stroke="#0ea5e9" stroke-opacity="0.3" stroke-width="0.5"/><rect x="30" y="-50" width="15" height="180" rx="2" fill="#141c2e" stroke="#0ea5e9" stroke-opacity="0.3" stroke-width="0.5"/><rect x="100" y="-50" width="15" height="180" rx="2" fill="#141c2e" stroke="#0ea5e9" stroke-opacity="0.3" stroke-width="0.5"/><rect x="170" y="-50" width="15" height="180" rx="2" fill="#141c2e" stroke="#0ea5e9" stroke-opacity="0.3" stroke-width="0.5"/><rect x="240" y="-50" width="15" height="180" rx="2" fill="#141c2e" stroke="#0ea5e9" stroke-opacity="0.3" stroke-width="0.5"/>
+    <!-- Pediment -->
+    <polygon points="-280,-50 0,-130 280,-50" fill="#141c2e" stroke="#0ea5e9" stroke-opacity="0.3" stroke-width="1"/>
+    <!-- Dome -->
+    <ellipse cx="0" cy="-130" rx="150" ry="100" fill="#141c2e" stroke="#0ea5e9" stroke-opacity="0.4" stroke-width="1"/>
+    <ellipse cx="0" cy="-130" rx="150" ry="100" fill="url(#glowGrad)" opacity="0.2"/>
+    <!-- Dome cap -->
+    <ellipse cx="0" cy="-210" rx="40" ry="30" fill="#1a2744" stroke="#0ea5e9" stroke-opacity="0.5" stroke-width="1"/>
+    <line x1="0" y1="-240" x2="0" y2="-270" stroke="#0ea5e9" stroke-opacity="0.6" stroke-width="2"/>
+    <circle cx="0" cy="-275" r="5" fill="#0ea5e9" opacity="0.7" filter="url(#glow)"/>
+    <!-- Windows -->
+    <rect x="-230" y="10" width="30" height="50" rx="2" fill="#0ea5e9" opacity="0.08"/><rect x="-165" y="10" width="30" height="50" rx="2" fill="#0ea5e9" opacity="0.08"/><rect x="-100" y="10" width="30" height="50" rx="2" fill="#0ea5e9" opacity="0.08"/><rect x="-35" y="10" width="30" height="50" rx="2" fill="#0ea5e9" opacity="0.08"/><rect x="30" y="10" width="30" height="50" rx="2" fill="#0ea5e9" opacity="0.08"/><rect x="95" y="10" width="30" height="50" rx="2" fill="#0ea5e9" opacity="0.08"/><rect x="160" y="10" width="30" height="50" rx="2" fill="#0ea5e9" opacity="0.08"/><rect x="225" y="10" width="30" height="50" rx="2" fill="#0ea5e9" opacity="0.08"/>
+    <!-- Door -->
+    <rect x="-25" y="50" width="50" height="80" rx="3" fill="#0ea5e9" opacity="0.1" stroke="#0ea5e9" stroke-opacity="0.2" stroke-width="0.5"/>
+  </g>
+  <!-- Stars/decorative elements -->
+  <polygon points="668,113 891,32 346,35" fill="#0ea5e9" opacity="0.28925230657638923"/><polygon points="673,93 292,30 540,143" fill="#0ea5e9" opacity="0.20750932117650517"/><polygon points="845,88 814,103 918,105" fill="#0ea5e9" opacity="0.24845380295306316"/><polygon points="366,143 904,101 262,136" fill="#0ea5e9" opacity="0.1978694075579229"/><polygon points="885,150 627,22 818,57" fill="#0ea5e9" opacity="0.18867661721214032"/>
+  <circle cx="503" cy="391" r="1.1987092492122606" fill="#0ea5e9" opacity="0.3057040796443856"/>
+<circle cx="1135" cy="680" r="1.7173476824246359" fill="#0ea5e9" opacity="0.21944189282331195"/>
+<circle cx="408" cy="145" r="2.8980215765242754" fill="#0ea5e9" opacity="0.34725732457947145"/>
+<circle cx="207" cy="698" r="1.4242116308466264" fill="#0ea5e9" opacity="0.2918478755589112"/>
+<circle cx="63" cy="71" r="2.5735891809092335" fill="#0ea5e9" opacity="0.1730706691492071"/>
+<circle cx="277" cy="598" r="1.4104111502857528" fill="#0ea5e9" opacity="0.3489453511651398"/>
+<circle cx="1155" cy="232" r="2.1727661671631235" fill="#0ea5e9" opacity="0.34391589433631775"/>
+<circle cx="497" cy="356" r="2.54873715560964" fill="#0ea5e9" opacity="0.33659312628328286"/>
+<circle cx="25" cy="303" r="2.7168122527603527" fill="#0ea5e9" opacity="0.1434063940961524"/>
+<circle cx="286" cy="573" r="1.5013083934562477" fill="#0ea5e9" opacity="0.15234913627041805"/>
+<circle cx="72" cy="154" r="1.0297206544614177" fill="#0ea5e9" opacity="0.3369953992704262"/>
+<circle cx="507" cy="622" r="1.6475429239240449" fill="#0ea5e9" opacity="0.15227386042185317"/>
+<circle cx="127" cy="149" r="2.483436113908299" fill="#0ea5e9" opacity="0.2578256579793602"/>
+<circle cx="150" cy="507" r="1.8965504285397683" fill="#0ea5e9" opacity="0.20861169214525363"/>
+<circle cx="243" cy="482" r="2.0076773795716427" fill="#0ea5e9" opacity="0.38362469289103196"/>
+<circle cx="108" cy="764" r="2.566453991960759" fill="#0ea5e9" opacity="0.36009427232795155"/>
+<circle cx="1087" cy="328" r="1.916085044195364" fill="#0ea5e9" opacity="0.3892078549366087"/>
+<circle cx="144" cy="510" r="2.6945970863344852" fill="#0ea5e9" opacity="0.22788208578399755"/>
+<circle cx="241" cy="522" r="2.4248026297941925" fill="#0ea5e9" opacity="0.23306869880890263"/>
+<circle cx="185" cy="349" r="2.21659484726688" fill="#0ea5e9" opacity="0.11970466999603419"/>
+
+</svg>

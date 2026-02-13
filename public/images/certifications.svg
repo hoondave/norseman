@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0e1a"/>
+      <stop offset="100%" style="stop-color:#0d1321"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bgGrad)"/>
+
+  <line x1="0" y1="0" x2="0" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="60" y1="0" x2="60" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="120" y1="0" x2="120" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="180" y1="0" x2="180" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="240" y1="0" x2="240" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="300" y1="0" x2="300" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="360" y1="0" x2="360" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="420" y1="0" x2="420" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="480" y1="0" x2="480" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="540" y1="0" x2="540" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="600" y1="0" x2="600" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="660" y1="0" x2="660" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="720" y1="0" x2="720" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="780" y1="0" x2="780" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="840" y1="0" x2="840" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="900" y1="0" x2="900" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="960" y1="0" x2="960" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="1020" y1="0" x2="1020" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="1080" y1="0" x2="1080" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="1140" y1="0" x2="1140" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="1200" y1="0" x2="1200" y2="800" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="0" x2="1200" y2="0" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="60" x2="1200" y2="60" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="120" x2="1200" y2="120" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="180" x2="1200" y2="180" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="240" x2="1200" y2="240" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="300" x2="1200" y2="300" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="360" x2="1200" y2="360" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="420" x2="1200" y2="420" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="480" x2="1200" y2="480" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="540" x2="1200" y2="540" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="600" x2="1200" y2="600" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="660" x2="1200" y2="660" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="720" x2="1200" y2="720" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+<line x1="0" y1="780" x2="1200" y2="780" stroke="#0ea5e9" stroke-opacity="0.03" stroke-width="0.5"/>
+  <!-- Connecting ribbon -->
+  <line x1="200" y1="350" x2="950" y2="350" stroke="#0ea5e9" stroke-opacity="0.1" stroke-width="1"/>
+  
+    <!-- Shield badge -->
+    <path d="M200,230 L260,260 L260,320 Q260,360 200,380 Q140,360 140,320 L140,260 Z" fill="#141c2e" stroke="#0ea5e9" stroke-opacity="0.4" stroke-width="1.5"/>
+    <path d="M200,230 L260,260 L260,320 Q260,360 200,380 Q140,360 140,320 L140,260 Z" fill="url(#glowGrad)" opacity="0.15"/>
+    <!-- Checkmark -->
+    <polyline points="185,300 197,315 220,285" fill="none" stroke="#0ea5e9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+    <text x="200" y="355" font-family="sans-serif" font-size="12" fill="#0ea5e9" opacity="0.6" text-anchor="middle">ISO 9001</text>
+    <!-- Shield badge -->
+    <path d="M450,180 L510,210 L510,270 Q510,310 450,330 Q390,310 390,270 L390,210 Z" fill="#141c2e" stroke="#0ea5e9" stroke-opacity="0.4" stroke-width="1.5"/>
+    <path d="M450,180 L510,210 L510,270 Q510,310 450,330 Q390,310 390,270 L390,210 Z" fill="url(#glowGrad)" opacity="0.15"/>
+    <!-- Checkmark -->
+    <polyline points="435,250 447,265 470,235" fill="none" stroke="#0ea5e9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+    <text x="450" y="305" font-family="sans-serif" font-size="12" fill="#0ea5e9" opacity="0.6" text-anchor="middle">ISO 20000</text>
+    <!-- Shield badge -->
+    <path d="M700,230 L760,260 L760,320 Q760,360 700,380 Q640,360 640,320 L640,260 Z" fill="#141c2e" stroke="#0ea5e9" stroke-opacity="0.4" stroke-width="1.5"/>
+    <path d="M700,230 L760,260 L760,320 Q760,360 700,380 Q640,360 640,320 L640,260 Z" fill="url(#glowGrad)" opacity="0.15"/>
+    <!-- Checkmark -->
+    <polyline points="685,300 697,315 720,285" fill="none" stroke="#0ea5e9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+    <text x="700" y="355" font-family="sans-serif" font-size="12" fill="#0ea5e9" opacity="0.6" text-anchor="middle">ISO 27001</text>
+    <!-- Shield badge -->
+    <path d="M950,180 L1010,210 L1010,270 Q1010,310 950,330 Q890,310 890,270 L890,210 Z" fill="#141c2e" stroke="#0ea5e9" stroke-opacity="0.4" stroke-width="1.5"/>
+    <path d="M950,180 L1010,210 L1010,270 Q1010,310 950,330 Q890,310 890,270 L890,210 Z" fill="url(#glowGrad)" opacity="0.15"/>
+    <!-- Checkmark -->
+    <polyline points="935,250 947,265 970,235" fill="none" stroke="#0ea5e9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+    <text x="950" y="305" font-family="sans-serif" font-size="12" fill="#0ea5e9" opacity="0.6" text-anchor="middle">SBA SB</text>
+  <circle cx="409" cy="779" r="1.234632398886669" fill="#0ea5e9" opacity="0.39987160210534356"/>
+<circle cx="1000" cy="268" r="2.3912525714099635" fill="#0ea5e9" opacity="0.3111305748027112"/>
+<circle cx="832" cy="265" r="2.104158585095629" fill="#0ea5e9" opacity="0.3326541646191311"/>
+<circle cx="799" cy="497" r="2.067300254832526" fill="#0ea5e9" opacity="0.20777786666547274"/>
+<circle cx="555" cy="388" r="2.0256330800475473" fill="#0ea5e9" opacity="0.24918318793029504"/>
+<circle cx="221" cy="759" r="1.9389808440451168" fill="#0ea5e9" opacity="0.3519193544691055"/>
+<circle cx="436" cy="399" r="1.625844037740382" fill="#0ea5e9" opacity="0.11371463439432843"/>
+<circle cx="473" cy="779" r="1.2918454262050971" fill="#0ea5e9" opacity="0.1782322329729309"/>
+<circle cx="875" cy="322" r="1.3048228203682866" fill="#0ea5e9" opacity="0.19895958579335798"/>
+<circle cx="797" cy="603" r="2.6667254305739703" fill="#0ea5e9" opacity="0.24979044471079678"/>
+<circle cx="711" cy="283" r="2.5267212513326394" fill="#0ea5e9" opacity="0.24658633016014456"/>
+<circle cx="1024" cy="491" r="1.336467291903082" fill="#0ea5e9" opacity="0.33849265430609027"/>
+<circle cx="366" cy="163" r="2.4406270615241876" fill="#0ea5e9" opacity="0.24649489637623975"/>
+<circle cx="1130" cy="677" r="2.914473787825287" fill="#0ea5e9" opacity="0.25718332462122384"/>
+<circle cx="172" cy="704" r="1.0970287883928245" fill="#0ea5e9" opacity="0.10191514733223367"/>
+
+</svg>
