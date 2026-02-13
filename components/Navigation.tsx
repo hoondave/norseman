@@ -19,12 +19,12 @@ const navLinks = [
     label: "Solutions",
     href: "#solutions",
     children: [
-      { label: "Yggdrasil — IT Infrastructure", href: "#solutions" },
-      { label: "Heimdall — Cyber Security", href: "#solutions" },
-      { label: "Völundr's Forge — DevSecOps", href: "#solutions" },
-      { label: "Mímir's Well — AI & Data Intelligence", href: "#solutions" },
-      { label: "The Norns — Service Automation", href: "#solutions" },
-      { label: "Bifröst — Cloud & Edge", href: "#solutions" },
+      { label: "Foundry — IT Infrastructure", href: "#solutions" },
+      { label: "Sentinel — Cyber Security", href: "#solutions" },
+      { label: "Forge — DevSecOps", href: "#solutions" },
+      { label: "Cortex — AI & Data Intelligence", href: "#solutions" },
+      { label: "Pulse — Service Automation", href: "#solutions" },
+      { label: "Horizon — Cloud & Edge", href: "#solutions" },
     ],
   },
   {

@@ -33,7 +33,7 @@ export default function Footer() {
           {/* Solutions */}
           <div>
             <h4 style={{ fontFamily: "'Outfit'", fontSize: 13, fontWeight: 700, color: "var(--teal-400)", letterSpacing: "1px", textTransform: "uppercase", marginBottom: 16 }}>Solutions</h4>
-            {["Yggdrasil — Infrastructure", "Heimdall — Cyber Security", "Völundr's Forge — DevSecOps", "Mímir's Well — AI & Data", "The Norns — Automation", "Bifröst — Cloud & Edge"].map((item, i) => (
+            {["Foundry — Infrastructure", "Sentinel — Cyber Security", "Forge — DevSecOps", "Cortex — AI & Data", "Pulse — Automation", "Horizon — Cloud & Edge"].map((item, i) => (
               <a key={i} href="#solutions" style={{ display: "block", fontSize: 14, color: "var(--slate-400)", textDecoration: "none", padding: "5px 0", transition: "color 0.2s" }}>{item}</a>
             ))}
           </div>

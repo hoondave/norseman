@@ -6,33 +6,33 @@ import { useInView } from "./useInView";
 
 const solutions = [
   {
-    icon: <Server size={24} />, title: "Yggdrasil", subtitle: "IT Infrastructure",
-    desc: "Named for the World Tree that connects all nine realms, Yggdrasil is our foundation practice. We design, deploy, and manage the infrastructure that connects your entire enterprise — from hyperconverged platforms and high-performance computing to hybrid cloud environments. Like the great ash tree that holds the cosmos together, we engineer the roots your mission depends on.",
+    icon: <Server size={24} />, title: "Foundry", subtitle: "IT Infrastructure",
+    desc: "Your mission runs on infrastructure — we make sure it's bulletproof. Foundry is our end-to-end practice for designing, deploying, and managing the compute, storage, and network backbone your enterprise depends on. From hyperconverged platforms and high-performance GPU clusters to hybrid cloud environments, we engineer foundations built to scale.",
     capabilities: ["Hybrid Cloud Architecture", "HPC / GPU Computing", "Storage & Data Management", "Network Modernization", "Edge Computing", "Data Center Consolidation"],
   },
   {
-    icon: <Lock size={24} />, title: "Heimdall", subtitle: "Cyber Security",
-    desc: "The all-seeing guardian of the Bifrost who could perceive threats from a hundred leagues away. Our Heimdall practice delivers that same vigilance — comprehensive cybersecurity solutions meeting the most stringent federal compliance requirements. We protect critical infrastructure with zero-trust architectures, advanced threat detection, and continuous monitoring that never sleeps.",
+    icon: <Lock size={24} />, title: "Sentinel", subtitle: "Cyber Security",
+    desc: "Threats don't sleep. Neither does Sentinel. Our cybersecurity practice delivers always-on protection through zero-trust architectures, advanced threat detection, and continuous monitoring — all built to meet the most stringent federal compliance requirements. We secure the networks that protect the nation.",
     capabilities: ["Zero Trust Architecture", "SIEM & SOAR", "Endpoint Detection & Response", "Identity & Access Management", "Compliance (CMMC, NIST, FedRAMP)", "Penetration Testing"],
   },
   {
-    icon: <Code size={24} />, title: "Völundr's Forge", subtitle: "DevSecOps",
-    desc: "Völundr, the legendary Norse smith, forged artifacts of unmatched precision and power. Our DevSecOps practice embodies that same craftsmanship — embedding security into every phase of the software lifecycle. We forge rapid, secure, compliant deployments across classified and unclassified environments with the precision of a master artisan.",
+    icon: <Code size={24} />, title: "Forge", subtitle: "DevSecOps",
+    desc: "Ship faster without cutting corners. Forge is our DevSecOps practice — embedding security into every phase of the software lifecycle so your teams can deliver rapid, compliant releases across classified and unclassified environments. We build the pipelines, automate the guardrails, and accelerate your path to production.",
     capabilities: ["CI/CD Pipeline Design", "Container Orchestration", "Infrastructure as Code", "Automated Security Scanning", "GitOps & Platform Engineering", "Accreditation Acceleration"],
   },
   {
-    icon: <Brain size={24} />, title: "Mímir's Well", subtitle: "AI & Data Intelligence",
-    desc: "Odin sacrificed his eye at Mímir's Well to drink from the waters of infinite wisdom. Our AI and data intelligence practice channels that same pursuit of knowledge — transforming raw data into actionable intelligence. From predictive analytics to generative AI, we build data platforms that deliver wisdom at the speed of mission.",
+    icon: <Brain size={24} />, title: "Cortex", subtitle: "AI & Data Intelligence",
+    desc: "Data is only as valuable as the decisions it drives. Cortex is our AI and analytics practice — transforming raw data into actionable intelligence at the speed of mission. From predictive models and generative AI to enterprise data platforms, we build the intelligence layer that gives your organization an unfair advantage.",
     capabilities: ["Machine Learning & Deep Learning", "Generative AI Integration", "Data Lakehouse Architecture", "Real-Time Analytics", "Natural Language Processing", "Computer Vision"],
   },
   {
-    icon: <Cog size={24} />, title: "The Norns", subtitle: "Service Management & Automation",
-    desc: "The Norns — Urðr, Verðandi, and Skuld — weave the threads of fate, orchestrating past, present, and future. Our service automation practice weaves intelligent workflows across your enterprise with the same purposeful precision. We implement ITSM platforms, robotic process automation, and AI-powered service desks that orchestrate outcomes and reduce cost.",
+    icon: <Cog size={24} />, title: "Pulse", subtitle: "Service Management & Automation",
+    desc: "The heartbeat of modern IT operations. Pulse is our service automation practice — implementing intelligent ITSM platforms, robotic process automation, and AI-powered help desks that slash response times and eliminate manual toil. We orchestrate the workflows that keep your enterprise running at peak performance.",
     capabilities: ["ITSM Platform Implementation", "Robotic Process Automation", "AI-Powered Service Desk", "Workflow Orchestration", "Self-Service Portals", "Chatbot & Virtual Agent Deployment"],
   },
   {
-    icon: <Globe size={24} />, title: "Bifröst", subtitle: "Cloud & Edge Computing",
-    desc: "The burning rainbow bridge that connects Midgard to Asgard — a pathway between realms. Our Bifröst practice bridges your on-premise world to the cloud and beyond. We architect, migrate, and manage workloads across AWS GovCloud, Azure Government, and tactical edge environments with full ATO support, connecting every realm of your enterprise.",
+    icon: <Globe size={24} />, title: "Horizon", subtitle: "Cloud & Edge Computing",
+    desc: "From government cloud to the tactical edge — Horizon takes you there. We architect, migrate, and manage workloads across AWS GovCloud, Azure Government, and on-premise environments with full ATO support. Whether it's a data center in Virginia or a disconnected node in an austere theater, we bridge every environment.",
     capabilities: ["Cloud Migration Strategy", "AWS GovCloud / Azure Gov", "FedRAMP Authorization Support", "Multi-Cloud Management", "Tactical Edge Deployments", "Disconnected & Austere Environments"],
   },
 ];
@@ -51,11 +51,11 @@ export default function Solutions() {
             <div style={{ width: 30, height: 2, background: "var(--teal-500)" }} /> TECHNOLOGY FOCUS <div style={{ width: 30, height: 2, background: "var(--teal-500)" }} />
           </div>
           <h2 style={{ fontFamily: "'Outfit'", fontSize: "clamp(32px,3.5vw,48px)", fontWeight: 800, lineHeight: 1.1, marginBottom: 16 }}>
-            The Six Realms of<br /><span style={{ color: "var(--teal-400)" }}>Norseman Expertise</span>
+            Six Practices.<br /><span style={{ color: "var(--teal-400)" }}>One Mission.</span>
           </h2>
           <p style={{ fontSize: 17, color: "var(--slate-400)", maxWidth: 660, margin: "0 auto", lineHeight: 1.7 }}>
-            Rooted in Norse tradition, each practice area is named for the legendary forces that shaped the cosmos.
-            From data center to tactical edge, we deliver solutions forged for the most demanding missions.
+            Each practice is purpose-built to solve a specific class of problem — and battle-tested across
+            the most demanding government and enterprise environments in the country.
           </p>
         </div>
 
